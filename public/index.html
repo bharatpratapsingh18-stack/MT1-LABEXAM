@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Task Management</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 850px; margin: 40px auto; padding: 0 18px; color: #202938; }
+    header { background: #173b67; color: white; padding: 24px; border-radius: 10px; }
+    h1 { margin-top: 0; }
+    section { margin-top: 22px; padding: 18px; border: 1px solid #d8e0ea; border-radius: 8px; }
+    a { color: #145da0; }
+    code { background: #eef2f7; padding: 3px 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Employee Task Management</h1>
+    <p>Welcome! This page is served from <code>public/index.html</code> using Node.js FS module.</p>
+  </header>
+  <section>
+    <h2>HTTP Server (Port 3000)</h2>
+    <p><a href="/">Home route</a> | <a href="/tasks">View tasks JSON</a> | <a href="/about">About</a></p>
+  </section>
+  <section>
+    <h2>Express REST API (Port 4000)</h2>
+    <p>Use EchoAPI to test <code>GET /tasks</code>, <code>GET /tasks/:id</code>,
+      <code>POST /tasks</code>, <code>PUT /tasks/:id</code> and <code>DELETE /tasks/:id</code>.</p>
+  </section>
+</body>
+</html>
